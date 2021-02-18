@@ -12,3 +12,9 @@ curl \
   -H "User-Agent: $UA" \
   -o result.html \
   https://app.feparks.com/mobilev2/integral/signIntegral?openKey=$openKey
+
+curl \
+  -H "Accept-Language: $LANGUAGE" \
+  -H "User-Agent: $UA" \
+  -o result.html \
+  https://app.feparks.com/mobilev2/integral/shareGetIntegral?openKey=$openKey&type=9
